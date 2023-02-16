@@ -91,3 +91,34 @@ footer p a {
     color: #fff;
     font-size: 14px;
 }
+
+
+/* Add responsive CSS here */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  table {
+    display: block;
+  }
+  td {
+    display: block;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  ul {
+    font-size: 16px;
+  }
+  table:nth-of-type(2),
+  table:nth-of-type(3) {
+    margin-top: 20px;
+  }
+}
