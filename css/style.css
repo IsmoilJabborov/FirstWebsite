@@ -93,8 +93,6 @@ footer p a {
 }
 
 
-
-@media (min-width: 768px) {
 @media (max-width: 768px) {
     body {
       font-size: 16px;
