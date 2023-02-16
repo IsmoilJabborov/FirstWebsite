@@ -95,26 +95,49 @@ footer p a {
 
 
 @media (min-width: 768px) {
+@media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+    .rasm table {
+      display: block;
+    }
     td {
-      display: table-cell;
-      width: 50%;
-      padding: 0 20px;
+      display: block;
+      text-align: center;
     }
-  
-    td:first-child {
-      width: 50%;
+    img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      margin-bottom: 20px;
     }
-  
-    td img {
-      max-width: none;
-      margin: 0;
+    .rasm h1 {
+      font-size: 24px;
     }
-  
-    h1 {
-      font-size: 36px;
+    .rasm ul {
+      font-size: 16px;
     }
-  
-    p {
-      font-size: 20px;
+    table:nth-of-type(2),
+    table:nth-of-type(3) {
+      margin-top: 20px;
+    }
+    .ish table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ish th, td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .ish th {
+        background-color: #07c;
+        color: #fff;
+    }
+    h3 {
+        text-align: center;
     }
   }
